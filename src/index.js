@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Click from './components/ClickityClick.js'
+import Counter from './components/ButtonCounter.js'
 
 ReactDOM.render(
   <div>
-    Mount Components Here
+    <Click />
+    <br />
+    <Counter />
   </div>,
   document.getElementById('root')
 );
